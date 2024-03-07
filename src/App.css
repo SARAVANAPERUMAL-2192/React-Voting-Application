@@ -148,4 +148,92 @@ input[type=number] {
   margin-bottom: 10px;
 }
 
+.connected-container {
+  margin: 8px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 8px;
+}
+
+.connected-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #374151;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  margin-bottom: 16px;
+  color: #ffffff;
+  background-color: #e53e3e;
+  border-radius: 8px;
+}
+
+.error-content {
+  display: flex;
+  align-items: center;
+}
+
+.error-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.75rem;
+}
+
+.error-text {
+  font-weight: bold;
+}
+
+.loading-container {
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+}
+
+.custom-table th {
+  background-color: #f3f4f6;
+  font-weight: bold;
+}
+
+.error-row {
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.party-symbol {
+  height: 2rem;
+  width: 2rem;
+}
+
+
 
