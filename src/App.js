@@ -139,7 +139,7 @@ function App() {
   return (
     
     <div className="App">
-      <Analytics />
+      
       { votingStatus ? (isConnected ? (<Connected 
                       account = {account}
                       candidates = {candidates}
@@ -152,7 +152,7 @@ function App() {
                       : 
                       
                       (<Login connectWallet = {connectToMetamask}/>)) : (<Finished />)}
-      
+      <Analytics />
     </div>
   );
 
