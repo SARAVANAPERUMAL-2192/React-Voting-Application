@@ -4,6 +4,7 @@ import {contractAbi, contractAddress} from './Constant/constant';
 import Login from './Components/Login';
 import Finished from './Components/Finished';
 import Connected from './Components/Connected';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 function App() {
@@ -136,7 +137,9 @@ function App() {
   }
 
   return (
+    
     <div className="App">
+      <Analytics />
       { votingStatus ? (isConnected ? (<Connected 
                       account = {account}
                       candidates = {candidates}
@@ -152,7 +155,6 @@ function App() {
       
     </div>
   );
-
 
 
 }

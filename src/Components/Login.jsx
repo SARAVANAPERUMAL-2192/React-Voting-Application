@@ -1,6 +1,6 @@
 import React from "react";
-import LogoImg from "../assets/Logo.jpg";
-import Bgimg from "../assets/Bg.jpg"
+import LogoImg from "../Logo.jpg";
+import Bgimg from "../Bg.jpg"
 const Login = (props) => {
   return (
     <div>
