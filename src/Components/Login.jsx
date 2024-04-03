@@ -1,7 +1,6 @@
 import React from "react";
 import LogoImg from "../Logo.jpg";
 import Bgimg from "../Bg.jpg";
-import { Analytics } from '@vercel/analytics/react';
 const Login = (props) => {
   return (
     <div>
