@@ -17,7 +17,7 @@ const Login = (props) => {
                 <button className="login-button" onClick={props.connectWallet}>Login Metamask</button>
               
             </div>
-            <Analytics />
+            
         </div> 
       </div>
     </div>
