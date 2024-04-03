@@ -1,6 +1,10 @@
 import React from "react";
 import LogoImg from "../Logo.jpg";
+<<<<<<< HEAD
 import Bgimg from "../Bg.jpg"
+=======
+import Bgimg from "../Bg.jpg";
+>>>>>>> 8b6479dcb095489c1881e7e7c83467896e8c97b9
 const Login = (props) => {
   return (
     <div>
@@ -14,7 +18,9 @@ const Login = (props) => {
             <div className="white-bg">
                 <h1 className="welcome-message">Welcome to the voting application</h1>
                 <button className="login-button" onClick={props.connectWallet}>Login Metamask</button>
+              
             </div>
+            
         </div> 
       </div>
     </div>

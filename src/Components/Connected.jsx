@@ -96,6 +96,8 @@ const partiesURL = {
   NCP: NCP,
 };
 
+
+
 const Connected = (props) => {
   return (
     <div className="connected-container">
