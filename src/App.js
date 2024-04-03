@@ -5,6 +5,7 @@ import Login from './Components/Login';
 import Finished from './Components/Finished';
 import Connected from './Components/Connected';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import './App.css';
 
 function App() {
@@ -153,6 +154,7 @@ function App() {
                       
                       (<Login connectWallet = {connectToMetamask}/>)) : (<Finished />)}
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 
