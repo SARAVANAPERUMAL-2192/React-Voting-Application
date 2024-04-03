@@ -1,6 +1,7 @@
 import React from "react";
 import LogoImg from "../Logo.jpg";
-import Bgimg from "../Bg.jpg"
+import Bgimg from "../Bg.jpg";
+import { Analytics } from '@vercel/analytics/react';
 const Login = (props) => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Login = (props) => {
             <div className="white-bg">
                 <h1 className="welcome-message">Welcome to the voting application</h1>
                 <button className="login-button" onClick={props.connectWallet}>Login Metamask</button>
+              <Analytics />
             </div>
         </div> 
       </div>
