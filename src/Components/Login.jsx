@@ -15,8 +15,9 @@ const Login = (props) => {
             <div className="white-bg">
                 <h1 className="welcome-message">Welcome to the voting application</h1>
                 <button className="login-button" onClick={props.connectWallet}>Login Metamask</button>
-              <Analytics />
+              
             </div>
+            <Analytics />
         </div> 
       </div>
     </div>
