@@ -1,10 +1,8 @@
 import React from "react";
 import LogoImg from "../Logo.jpg";
-<<<<<<< HEAD
 import Bgimg from "../Bg.jpg"
-=======
-import Bgimg from "../Bg.jpg";
->>>>>>> 8b6479dcb095489c1881e7e7c83467896e8c97b9
+
+
 const Login = (props) => {
   return (
     <div>
