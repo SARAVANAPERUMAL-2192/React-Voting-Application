@@ -136,7 +136,9 @@ const Signup = () => {
                   </div> 
                 </div>  
                 )}
-              </div>   
+              </div>
+      <Analytics />
+      <SpeedInsights />   
     </div> 
   );
 };
