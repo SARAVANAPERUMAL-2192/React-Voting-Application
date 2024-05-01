@@ -84,17 +84,6 @@
 // export default Connected;
 
 import React from "react";
-import bp from "../assets/BJP.png";
-import INC from "../assets/NC.png";
-import AAP from "../assets/AAP.png";
-import NCP from "../assets/NCP.png";
-
-const partiesURL = {
-  BJP: bp,
-  INC: INC,
-  AAP: AAP,
-  NCP: NCP,
-};
 
 
 
