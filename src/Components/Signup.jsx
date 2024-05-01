@@ -1,6 +1,7 @@
 import { BsFillShieldLockFill} from "react-icons/bs";
 
-
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import OtpInput from "otp-input-react";
 import { useState } from "react";
 import PhoneInput from "react-phone-input-2";
